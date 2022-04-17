@@ -1,4 +1,6 @@
-# This my remix version of the same take-home project I completed earlier today (see https://github.com/lilyruth/takeHome041622/blob/main/README.md)
+# This my remix version of the same take-home project I completed earlier today 
+
+(see https://github.com/lilyruth/takeHome041622/blob/main/README.md)
 
 ## I had some fun with changing up colors, because I can. 
 
