@@ -53,7 +53,7 @@ const Content = () => {
  return ( 
 
   <div>  
-    <div className="title">Click on the user to see their posts.</div>
+    <div className="title">Click on the username to see their posts.</div>
  <div className="content">
 
   <div className={ listActive ? "list" : "none"}>
