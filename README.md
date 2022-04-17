@@ -2,7 +2,7 @@
 
 (see https://github.com/lilyruth/takeHome041622/blob/main/README.md)
 
-## I had some fun with changing up colors, because I can. 
+## I had some fun with changing up colors. 
 
 ## The site is still mobile friendly.
 
