@@ -191,6 +191,11 @@ h3 {
    width: 70vw;
   }
 
+  .user {
+    padding: .25rem;
+    margin: .5rem;
+  }
+
   .footer {
    height: 10vh;
    font-size: 1.5rem;
