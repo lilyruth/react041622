@@ -50,10 +50,13 @@ h1 {
 
 .title {
  display: flex;
- height: 4rem;
  align-items: center;
  justify-content: center;
+ text-align: center;
  margin: auto;
+ padding: .25rem;
+ padding-top: .5rem;
+ font-size: 1.25rem;
  color: var(--primaryFontColor);
 }
 
@@ -136,7 +139,7 @@ h3 {
 }
 
 .footer {
- height: 20vh;
+ height: 15vh;
  width: 100vw;
  background: var(--background);
  font-family: square-peg-regular;
@@ -157,7 +160,7 @@ h3 {
 @media screen and (max-width: 600px) {
   
   .header {
-   height: 15vh;
+   height: 20vh;
   }
  
   .header h1 {
@@ -171,15 +174,8 @@ h3 {
   }
   
   .content {
-   height: 70.5vh;
+   height: 60vh;
    width: 90vw;
-  }
-  .table {
-   margin: .75rem auto;
-  }
-
-  table {
-   width: 70vw;
   }
 
   .posts {
@@ -193,17 +189,27 @@ h3 {
 
   .user {
     padding: .25rem;
-    margin: .5rem;
+    margin: .25rem;
   }
 
   .footer {
-   height: 10vh;
+   height: 13vh;
    font-size: 1.5rem;
   }
 }
 
+
 @media screen and (max-width: 300px) {
- td {
-  font-size: 1rem;
- }
+  
+  .header {
+    height: 15vh;
+  }
+
+  .content {
+    height: 60vh;
+  }
+
+  .footer {
+    height: 12vh;
+  }
 }
