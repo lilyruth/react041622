@@ -7,12 +7,15 @@ const GetPosts = (props) => {
  let list;
 
  useEffect(() => {
-  if (props.user !== null)
-    fetch(postsUrl)
-      .then(response => response.json())
-      .then(response => setPosts(response))
+  (async function() {
+    if (props.user !== null) {
+      let response = await fetch(postsUrl);
+      response = await response.json()
+      response = setPosts(response)
       console.log(posts)
- }, [props.user]);
+      }
+    })() 
+  }, [props.user]);
 
  if (posts !== null) {
   list = posts.map(item => (

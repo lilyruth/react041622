@@ -10,12 +10,16 @@ const APICall = () => {
  const [url, setUrl] = useState('https://jsonplaceholder.typicode.com/users');
  
  useEffect(() => {
-  fetch(url)
-    .then(response => response.json())
-    .then(users => {
+  (async function() {
+    let response = await fetch(url)
+    let users = await response.json();
+    console.log(users)
+    users.map(user => {
       let usernames = users.map(user => ({ username: user.username, id: user.id }))
       setUsers(usernames);
     })
+  })();
+  
 }, []);
 
 const changeHandler = e => {
