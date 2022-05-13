@@ -2,6 +2,11 @@
 
 (see https://github.com/lilyruth/takeHome041622/blob/main/README.md)
 
+## Conditions filled included: 
+- One page web application
+- Receives JSON data and renders to the DOM using the API from jsonplaceholder.typicode.com.
+- When a user is selected, all of the posts are displayed that were created by that user.
+
 I had some fun with changing up colors. 
 
 The site is still mobile friendly.
